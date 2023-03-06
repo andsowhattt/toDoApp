@@ -126,4 +126,6 @@ body {
 	background-color: #dc143c;
 }
 
-
+.hide {
+	display: none;
+}
