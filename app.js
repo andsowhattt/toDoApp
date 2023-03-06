@@ -207,10 +207,10 @@ function filterTasks(event) {
 		//we check whether the text of the task contains the input value "Search for tasks"
 		if (itemValue.includes(searchQuery)) {
 			// if it has, then display = list-item
-			item.style.display = 'list-item';
+			item.classList.remove('hide');
 		} else {
 			// if not - hide this list element
-			item.style.display = 'none';
+			item.classList.add('hide');
 		}
 	})
 }
